@@ -1,0 +1,17 @@
+.flex{
+   
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(151, 50, 50);
+    background-color: rgb(200, 200, 200);
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+    border: 2px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
