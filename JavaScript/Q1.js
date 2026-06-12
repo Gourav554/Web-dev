@@ -1,16 +1,13 @@
-task 1                                                                                                                                                                                                          const students = [
-    { name: "John", marks: [80, 90, 85] },
-    { name: "Emma", marks: [95, 92, 98] },
-    { name: "Alex", marks: [60, 70, 65] }
+const sales = [
+    { category: "Electronics", amount: 500 },
+    { category: "Books", amount: 100 },
+    { category: "Electronics", amount: 300 }
 ];
 
-const result = students
-    .map(student => {
-        const avg = student.marks.reduce((sum, mark) => sum + mark, 0) / student.marks.length;
-        return { name: student.name, average: avg };
-    })
-    .filter(student => student.average >= 85)
-    .sort((a, b) => b.average - a.average)
-    .map(student => student.name);
+let total = 0;
 
-console.log(result);
+for (let sale of sales) {
+    total += sale.amount;
+}
+
+console.log(total);
