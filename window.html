@@ -4,48 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium Clone</title>
-    <link rel="stylesheet" href="window.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <link rel="stylesheet" href="window.css">
 </head>
 <body>
+    
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo"> ≡ Medium</div>
+<body>
 
-        <input type="text" placeholder=" 🔎Search" class="search-box">
+    <nav class="navbar">
 
-        <div class="nav-buttons">
-            <button>Get app</button>
+        <div class="nav-left">
+            <i class="fa-solid fa-bars"></i>
+            <h1>Medium</h1>
         </div>
-        <div class ="nav">
-            <p>📝Write &ensp; 🔔 &ensp; 🟡 </p>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search">
         </div>
-    </header>
-     \<div class="top-banner">
-    ✨ Get unlimited access to the best of Medium for less than $5 per month.
-    <a href="#">Become a member</a>
-</div>
+
+        <div class="nav-right">
+            <button>Get App</button>
+            <span>Write</span>
+            <i class="fa-regular fa-bell"></i>
+
+            <img src="https://i.pravatar.cc/40" alt="">
+        </div>
+
+    </nav>
+
+    <!-- left wala side baar  -->
 
     <div class="container">
 
-        <!-- Left Sidebar -->
-        <aside class="sidebar">
-            <ul>
-                <li>🏠 Home</li>
-                <li>📚 Library</li>
-                <li>👤 Profile</li>
-                <li>📖 Stories</li>
-                <li>📊 Stats</li>
-                <br> <br>
-                <hr>
+        <!-- LEFT SIDEBAR -->
 
-                <li>👥 Following</li>
-                <li> ➕ Find writers and publications to follow.</li>
-                <span class="underline">See suggestions</span>
+        <aside class="sidebar">
+
+            <ul>
+
+                <li><i class="fa-solid fa-house"></i>Home</li>
+
+                <li><i class="fa-regular fa-bookmark"></i> Library</li>
+
+                <li><i class="fa-regular fa-user"></i> Profile</li>
+
+                <li><i class="fa-regular fa-file-lines"></i> Stories</li>
+
+                <li><i class="fa-solid fa-chart-column"></i> Stats</li>
+
             </ul>
+             <hr>
+
+            <h3>Following</h3>
+
+            <div class="follow-box">
+                <i class="fa-solid fa-plus"></i>
+
+                <p>
+                    Find writers and publications to follow.
+                </p>
+
+                <a href="#">See suggestions</a>
+            </div>
+
         </aside>
+
+        <main class="feed">
+
+            <div class="tabs">
+                <span class="active">For you</span>
+                <span>Featured</span>
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Leo Godin · Mar 2</p>
+
+                    <h2>Claude Code is Great</h2>
+
+                    <p>You Just Need to Learn How to Use It</p>
+
+                    <div class="stats">
+                        ⭐ 5.2K
+                        💬 150
+                        🔁 87
+                <i class="fa-regular fa-thumbs-down"></i>
+                <i class="fa-regular fa-saved"></i>
+
+                        
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?1">
+
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Data Science Collective · Feb 23</p>
+
+                    <h2>Should You Still Learn to Code in 2026?</h2>
+
+                    <p>The answer isn't as obvious as I used to believe.</p>
+
+                    <div class="stats">
+                        ⭐ 3.6K
+                        💬 178
+                        🔁 94
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?2">
+
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Books Are Our Superpower</p>
+
+                    <h2>Women Are Basically Reading Porn</h2>
+
+                    <p>
+                        And other misogynistic comments I receive
+                        when I say I'm a fiction reader
+                    </p>
+
+                    <div class="stats">
+                        ⭐ 6K
+                        💬 305
+                        🔁 167
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?3">
+
+            </div>
+
+        </main>
+        
+        <!-- right side wala v-baar -->
+        <aside class="rightbar">
+
+            <h3>Staff Picks</h3>
+
+            <div class="pick">
+              <img src="photot.jpg" >
+                <span>devin bambric</span>
+                <p>Gatori Fishing in America</p>
+                <span class="days">5 days ago</span>
+            </div>
+
+            <div class="pick">
+              <img src="photot.jpg" ]]>
+                <span>john de vore</span>
+                <p>Cigarettes are bad. I miss them.</p>
+                <span class="days">⭐ 4 days ago</span>
+
+            </div>
+
+            <div class="pick">
+              <img src="photto.jpg" >
+              <span>In Bootcamp <span id ="by"> by </span> Bivya Sabade </span>
+
+                <p>
+                    I Sat in Engineering Meetings for Two Years Without understanding what a branch Was
+                </p>
+                <span>⭐ </span>
+                <span class="days">6 days ago </span>
+            </div>
+            <span id="see">See the full list</span>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>Recommended Topics</h3>
+
+            <div class="topics">
+
+                <span>Technology</span>
+                <span>Writing</span>
+                <span>Machine Learning</span>
+                <span>Politics</span>
+                <span>Cryptocurrency</span>
+
+            </div>
+
+        </aside>
+
     </div>
-    
 
 </body>
 </html>
