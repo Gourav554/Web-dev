@@ -1,0 +1,42 @@
+class animal{
+    eat(){
+        console.log("eating");
+    }
+     sleep(){
+        console.log("Sleeping");
+    }
+}
+class Dog extend Animal{
+    bark(){
+        console.log("barking");
+    }
+ const dog = new Dog();
+    dog.eat();
+    dog.sleep();
+
+}
+
+
+
+
+
+
+
+
+
+
+// Method Inheritance
+class animal {
+    constructor(name){
+        this.name = name;
+        this.age = age;
+    }
+}
+class cat extends animal{
+    constructor(name,age,breed){
+        super (name,age);
+        this.breed = breed;
+    }
+}
+const c =new cat("Shiba" 2,"paya");
+console.log(c);
