@@ -70,7 +70,7 @@
 //  }, 1000); } 
  
 //  function upload(cb) {    
-// setTimeout(() => {    
+// setTimeout(() => {     
 // console.log("Upload Complete");        
 // cb();  
 //  }, 1000); } 
