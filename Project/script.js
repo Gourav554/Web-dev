@@ -7,7 +7,6 @@ let login = document.querySelector('.chat-application')
 
 let chartapp = document.querySelector('chat-app');
 
-
 btn.addEventListener('click', () => {
     let username = inp.value.trim(); 
     if(username.length > 0) {
