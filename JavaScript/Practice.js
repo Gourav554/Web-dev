@@ -1,4 +1,4 @@
-// // const names =["gagan","ishan","yogesh"];
+const names =["gagan","ishan","yogesh"];
 
 // // // console.log(names.toUpperCase());
 
