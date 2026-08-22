@@ -23,7 +23,7 @@ const bankAccount = {
         console.log("Balance: ₹" + bankAccount.balance);
     }
 };
-bankAccount.checkBalance();
+
 bankAccount.checkBalance();
 bankAccount.deposit(2000);
 bankAccount.withdraw(1500);
